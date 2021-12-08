@@ -27,4 +27,11 @@ opposite
 num = int(input("Enter a number: "))
 num2 = int(input("Enter another number: "))
 
-if num > 0
+if num > 0 and num2 > 0 :
+  print("Positive")
+elif num < 0 and num2 < 0 :
+  print("Negative")
+elif num == 0 or num2 == 0 :
+  print("Zero")
+elif num > 0 and num2 < 0 or num < 0 and num2 > 0 :
+  print("Opposite")
